@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create group page matches snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="menu navbar navbar-expand navbar-dark bg-dark"
+    >
+      <div
+        className="container-fluid"
+      >
+        <a
+          className="navbar-brand"
+          href="#home"
+        >
+          <img
+            alt="connexion"
+            className="d-inline-block align-top"
+            id="logo"
+            src="../Connexion-logos_transparent.png"
+          />
+           
+        </a>
+        <div>
+          <button
+            aria-controls="navbarScroll"
+            aria-label="Toggle navigation"
+            className="navbar-toggler collapsed"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              className="navbar-toggler-icon"
+            />
+          </button>
+          <div
+            aria-expanded={null}
+            className="navbar-collapse collapse"
+            id="navbarScroll"
+          >
+            <div
+              className="me-auto my-2 my-lg-0 navbar-nav navbar-nav-scroll"
+              onKeyDown={[Function]}
+              style={
+                Object {
+                  "maxHeight": "100px",
+                }
+              }
+            >
+              <button
+                className="NavBar-buttons btn btn-primary"
+                disabled={false}
+                id="home"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5z"
+                  />
+                </svg>
+              </button>
+              <button
+                className="NavBar-buttons btn btn-primary"
+                disabled={false}
+                id="createGroup"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z"
+                  />
+                </svg>
+              </button>
+              <button
+                className="NavBar-buttons btn btn-primary"
+                disabled={false}
+                id="chat"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"
+                  />
+                </svg>
+              </button>
+              <button
+                className="NavBar-buttons btn btn-primary"
+                disabled={false}
+                id="profile"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+                  />
+                </svg>
+              </button>
+              <button
+                className="NavBar-buttons btn btn-primary"
+                disabled={false}
+                id="logout"
+                onClick={[Function]}
+                type="button"
+              >
+                <svg
+                  fill="currentColor"
+                  height="1em"
+                  viewBox="0 0 16 16"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"
+                    fillRule="evenodd"
+                  />
+                  <path
+                    d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"
+                    fillRule="evenodd"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="title"
+  >
+    <h3>
+      Create a Group
+    </h3>
+  </div>
+  <hr />
+  <div
+    className="group"
+  >
+    <div>
+      <form
+        id="form1"
+        runat="server"
+      >
+        <input
+          id="imgInp"
+          onChange={[Function]}
+          type="file"
+        />
+        <div
+          className="image-container"
+        >
+          <img
+            alt=""
+            height="300px"
+            id="image"
+            onClick={[Function]}
+            onKeyPress={[Function]}
+            role="none"
+            src={null}
+            style={
+              Object {
+                "object-fit": "cover",
+              }
+            }
+            width="300px"
+          />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div
+    className="groupInfo"
+  >
+    <form
+      className=""
+      onSubmit={[Function]}
+    >
+      <div
+        className="mb-3 row"
+      >
+        <label
+          className="form-label col-form-label col-sm-2"
+          htmlFor="formHorizontalEmail"
+        >
+          Title
+        </label>
+        <div
+          className="col-sm-5"
+        >
+          <input
+            className="form-control"
+            id="formHorizontalEmail"
+            onChange={[Function]}
+            placeholder="Title"
+          />
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <label
+          className="form-label col-form-label col-sm-2"
+          htmlFor="formHorizontalPassword"
+        >
+          Description
+        </label>
+        <div
+          className="col-sm-5"
+        >
+          <textarea
+            className="form-control"
+            id="formHorizontalPassword"
+            onChange={[Function]}
+            placeholder="Write a group description"
+            style={
+              Object {
+                "height": "100px",
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="col-sm-10 offset-sm-2"
+        >
+          <div
+            className="form-check"
+          >
+            <input
+              className="form-check-input"
+              disabled={false}
+              id="formHorizontalCheck"
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <label
+              className="form-check-label"
+              htmlFor="formHorizontalCheck"
+              title=""
+            >
+              I want to keep group private
+            </label>
+          </div>
+        </div>
+      </div>
+      <div
+        className="mb.3 row"
+      >
+        <label
+          className="form-label col-form-label col-sm-2"
+        >
+          Tags
+        </label>
+        <div
+          className="col-sm-2"
+        >
+          <input
+            className="form-control"
+            id="inpTag"
+            onChange={[Function]}
+            placeholder="tag"
+            value=""
+          />
+        </div>
+        <div
+          className="col-sm-2"
+        >
+          <button
+            className="btn btn-primary"
+            disabled={false}
+            id="add"
+            onClick={[Function]}
+            type="button"
+          >
+            Add
+          </button>
+        </div>
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="col-sm-10 offset-sm-2"
+        />
+      </div>
+      <div
+        className="mb-3 row"
+      >
+        <div
+          className="mt-3 col-sm-10 offset-sm-2"
+        >
+          <button
+            className="createGroupBtn btn btn-primary"
+            disabled={false}
+            type="submit"
+          >
+            Create Group
+          </button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+`;

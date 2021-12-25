@@ -1,0 +1,44 @@
+hr {
+    margin: auto;
+    width: 90%;
+}
+
+.title {
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.group {
+    margin-left: 15%;
+    margin-top: 3%;
+}
+
+.groupInfo {
+    margin-left: 40%;
+    margin-top: -10%;
+}
+
+.createGroupBtn {
+    background-color: #F8B114;
+    border: none;
+}
+
+.createGroupBtn:hover {
+    background-color: black;
+}
+
+#tags {
+    border: 1px solid black;
+}
+
+#add {
+    background-color:#F8B114;
+    border: none;
+}
+
+.tags {
+    margin-right: 1%;
+    margin-top: 1%;
+    background-color: black;
+    border: none;
+}

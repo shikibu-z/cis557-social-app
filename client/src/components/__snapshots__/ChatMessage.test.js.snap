@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChatMessage matches snapshot 1`] = `
+<div
+  class="curUserMessage"
+>
+  <div
+    class="right-message"
+  >
+    <span>
+      
+    </span>
+  </div>
+</div>
+`;

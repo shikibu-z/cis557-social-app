@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GroupHeader matches snapshot 1`] = `
+<div
+  className="groupHeaderWrapper"
+>
+  <img
+    alt="group-img"
+    src=""
+  />
+  <div
+    id="groupNameWrapper"
+  >
+    test
+  </div>
+  <div>
+    <button
+      id="inviteBtn"
+      onClick={[Function]}
+      type="button"
+    >
+      Invite
+    </button>
+  </div>
+  <div
+    id="groupBtnWrapper"
+  >
+    <button
+      id="joinLeaveBtn"
+      onClick={[Function]}
+      type="submit"
+    >
+      Leave
+    </button>
+  </div>
+</div>
+`;

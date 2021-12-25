@@ -1,0 +1,126 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Group info box matches snapshot 1`] = `
+<div
+  className="GroupInfo"
+>
+  <div
+    className="card"
+    style={
+      Object {
+        "backgroundColor": "#C4C4C4",
+        "width": "18rem",
+      }
+    }
+  >
+    <div
+      className="card-header"
+      style={
+        Object {
+          "backgroundColor": "black",
+          "color": "white",
+          "fontFamily": "Roboto",
+          "fontSize": "1.5em",
+          "textAlign": "center",
+        }
+      }
+    >
+      About 
+      
+    </div>
+    <div
+      className="card-body"
+    >
+      <p
+        className="card-text"
+      />
+      <div
+        className="g-4 row row-cols-md-2 row-cols-1"
+      >
+        <div
+          className="col"
+        >
+          <div
+            className="text-center card"
+            style={
+              Object {
+                "backgroundColor": "#C4C4C4",
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-text"
+              />
+              <div
+                className="card-title h5"
+                style={
+                  Object {
+                    "fontSize": "1.1rem",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Members
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="col"
+        >
+          <div
+            className="text-center card"
+            style={
+              Object {
+                "backgroundColor": "#C4C4C4",
+                "border": "none",
+              }
+            }
+          >
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-text"
+              >
+                5
+              </p>
+              <div
+                className="card-title h5"
+                style={
+                  Object {
+                    "fontSize": "1.1rem",
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Online
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="text-center card"
+        style={
+          Object {
+            "backgroundColor": "#C4C4C4",
+            "border": "none",
+          }
+        }
+      >
+        <p
+          className="card-text"
+        >
+          Created on 
+          NaN-NaN-NaN
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

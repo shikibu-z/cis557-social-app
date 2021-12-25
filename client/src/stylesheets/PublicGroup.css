@@ -1,0 +1,41 @@
+.public-group .group-content {
+    display: flex;
+    justify-content: space-around;
+    font-family: Roboto;
+}
+
+.public-group .post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.public-group .make-post {
+    padding-top: 100px;
+}
+
+.public-group .group-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#join-group {
+    width: 170px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #F8B114;
+    border-radius: 100px;
+    font-family: Roboto;
+    border: none;
+}
+
+#invite-user {
+    width: 170px;
+    height: 48px;
+    color: #FFFFFF;
+    background-color: #F8B114;
+    border-radius: 100px;
+    font-family: Roboto;
+    border: none;
+}

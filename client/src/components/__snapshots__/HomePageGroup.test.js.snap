@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePageGroup matches snapshot 1`] = `
+<a
+  href="/explore/undefined"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "black",
+      "textDecoration": "none",
+    }
+  }
+>
+  <div
+    className="homepage-group"
+  >
+    <img
+      alt=""
+    />
+    <div
+      className="homepage-group-name"
+    >
+      <h2>
+        investing
+      </h2>
+      <p
+        className="homepage-group-info"
+      />
+      <p
+        className="homepage-group-members"
+      >
+        Private: 
+        No
+         
+        Joined: 
+        No
+         
+        Members: 
+      </p>
+    </div>
+  </div>
+</a>
+`;

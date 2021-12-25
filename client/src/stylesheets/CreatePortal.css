@@ -1,0 +1,90 @@
+#imgBtn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#videoBtn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#audioBtn {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.postBtnWrapper {
+  position: relative;
+  left: 60%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#postBtn{
+  position: relative;
+  width: 160px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #F8B114;
+  color: white;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+#cancelBtn{
+  position: relative;
+  width: 160px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #f81414;
+  color: white;
+  border: none;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+#createBtn {
+  width: 100%;
+  height: 100%;
+}
+
+#postAttatchments {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-items: center;
+  margin-bottom: 2%;
+}
+
+#cpImg {
+  height: 100%;
+  width: 100%;
+}
+
+#cpVideo {
+  height: 100%;
+  width: 100%;
+}
+
+#cpAudio {
+  height: 100%;
+  width: 100%;
+}

@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - "14"
+
+script:
+  - cd client
+  - npm install
+  - npm run lint
+  - npm run test
+  - npm run build
+  - cd ..
+  - cd server
+  - npm install
+  - npm run test
+branches:
+  only:
+  - main
+  - unit_tests

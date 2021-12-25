@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login page matches snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="menu navbar navbar-expand navbar-dark bg-dark"
+    >
+      <div
+        className="container-fluid"
+      >
+        <a
+          className="navbar-brand"
+          href="#home"
+        >
+          <img
+            alt="connexion"
+            className="d-inline-block align-top"
+            id="logo"
+            src="../Connexion-logos_transparent.png"
+          />
+           
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container d-flex align-items-center flex-column"
+  >
+    <img
+      alt="connexion"
+      id="login-box-logo"
+      src="Connexion-logos_transparent.png"
+    />
+    <form
+      className="loginbox container d-flex flex-column"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="username-input"
+        >
+          Username:
+          <input
+            className="form-control"
+            id="username-input"
+            placeholder="Enter username"
+            type="text"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="password-input"
+        >
+          Password:
+          <input
+            className="form-control"
+            id="password-input"
+            placeholder="Enter password"
+            type="password"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group button-group"
+      >
+        <button
+          className="btn-hide"
+          onClick={[Function]}
+          type="button"
+        >
+          forgot password
+        </button>
+      </div>
+      <div
+        className="form-group button-group"
+      >
+        <button
+          className="btn right-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Login
+        </button>
+        <button
+          className="btn right-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Sign up
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

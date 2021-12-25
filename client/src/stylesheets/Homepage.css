@@ -1,0 +1,115 @@
+.home {
+  width: 98%;
+  height: 100vh;
+  margin: 1% auto;
+  
+  display: flex;
+  flex-direction: row;
+}
+
+.leftSide{
+  flex: 2.6;
+  display: flex;
+  flex-direction: column;
+}
+
+.notificationSide {
+  flex: 1;
+  margin: 1% 0.5% 1% 1%;
+  border-radius: 20px;
+  background: #F0F0F0;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.groupSide {
+  flex: 2.6;
+  background: #F0F0F0;
+  margin: 1% 0.5% 1% 1%;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.rightSide {
+  flex: 1;
+  background: #F0F0F0;
+  margin: 1% 1% 1% 0.5%;
+  border-radius: 20px;
+  display:flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.homepage-header {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  text-align: center;
+  margin-left: 3%;
+  gap: 10px;
+}
+
+.homepage-title {
+  margin-bottom: 0;
+  margin-right: 5%;
+  align-self: center;
+  color: #595959;
+}
+
+.homepage-group-search {
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px #FFFFFF;
+  width: 40%;
+  height: 35px;
+  margin-top: 0.5%;
+}
+
+#homepage-groups, #homepage-friends, #homepage-notification {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+#showAllGroups {
+  position: absolute;
+  bottom: -100px;
+  align-self: center;
+  width: 30%;
+  height: 4%;
+  color: white;
+  background: #F8B114;
+  border-radius: 20px;
+  border: 0;
+}
+
+.homepage-friend-search {
+  background: #FFFFFF;
+  border-radius: 8px;
+  border: 1px #FFFFFF;
+  width: 50%;
+  height: 35px;
+  margin-top: 0.5%;
+}
+
+#showAllFriends {
+  position: absolute;
+  bottom: -100px;
+  align-self: center;
+  width: 20%;
+  height: 4%;
+  color: white;
+  background: #F8B114;
+  border-radius: 20px;
+  border: 0;
+}
+
+.readDiv {
+  margin-left: 10px;
+  color: #595959;
+  font-size: large;
+}

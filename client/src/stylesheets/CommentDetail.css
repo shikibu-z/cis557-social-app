@@ -1,0 +1,85 @@
+.commentWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1% 2% 1% 2%;
+}
+
+.commentWrapper img{
+  display: block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 1%;
+}
+
+.commentDetailWrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.userInfoWrapper{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: fit-content;
+}
+
+#commentBody {
+  width: fit-content;
+  height: fit-content;
+}
+
+#commentUserName{
+  white-space:nowrap;
+  width: fit-content;
+  font-family: Roboto;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #f8b114;
+  margin-right: 4%;
+}
+
+#timeFromNow{
+  white-space:nowrap;
+  width: fit-content;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-right: 4%;
+}
+
+#editOption{
+  white-space: nowrap;
+  width: fit-content;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: cornflowerblue;
+  margin-right: 2%;
+  background-color: white;
+  border: none;
+}
+
+#deleteOption{
+  white-space: nowrap;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  letter-spacing: 0px;
+  text-align: center;
+  color: cornflowerblue;
+  margin-right: 2%;
+  background-color: white;
+  border: none;
+}

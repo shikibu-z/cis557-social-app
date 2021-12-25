@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat matches snapshot 1`] = `
+<a
+  href="/chat/undefined"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "black",
+      "textDecoration": "none",
+    }
+  }
+>
+  <div
+    className="chat-card"
+  >
+    <img
+      alt=""
+    />
+    <div
+      className="chat-card-content"
+    >
+      <h2 />
+    </div>
+  </div>
+</a>
+`;

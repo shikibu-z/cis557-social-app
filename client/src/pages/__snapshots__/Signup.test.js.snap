@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile page matches snapshot 1`] = `
+<div>
+  <div>
+    <nav
+      className="menu navbar navbar-expand navbar-dark bg-dark"
+    >
+      <div
+        className="container-fluid"
+      >
+        <a
+          className="navbar-brand"
+          href="#home"
+        >
+          <img
+            alt="connexion"
+            className="d-inline-block align-top"
+            id="logo"
+            src="../Connexion-logos_transparent.png"
+          />
+           
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div
+    className="container container d-flex align-items-center flex-column"
+  >
+    <img
+      alt="connexion"
+      id="login-box-logo"
+      src="Connexion-logos_transparent.png"
+    />
+    <form
+      className="signupbox container d-flex flex-column"
+    >
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="create-email-input"
+        >
+          Enter your Email address
+          <input
+            className="form-control"
+            id="create-email-input"
+            placeholder="Enter email"
+            type="email"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="create-username-input"
+        >
+          Create a Username:
+          <input
+            className="form-control"
+            id="create-username-input"
+            placeholder="Enter username"
+            type="text"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group"
+      >
+        <label
+          htmlFor="create-password-input"
+        >
+          Create a Password:
+          <div>
+            <p
+              style={
+                Object {
+                  "font-size": "10px",
+                  "margin": 0,
+                }
+              }
+            >
+              Passwords must contain:
+            </p>
+            <p
+              style={
+                Object {
+                  "fontSize": "10px",
+                  "margin": 0,
+                }
+              }
+            >
+              * at least 1 numeric character
+            </p>
+            <p
+              style={
+                Object {
+                  "fontSize": "10px",
+                  "margin": 0,
+                }
+              }
+            >
+              * at least 1 lower case character
+            </p>
+            <p
+              style={
+                Object {
+                  "fontSize": "10px",
+                  "margin": 0,
+                }
+              }
+            >
+              * at least 1 upper case character
+            </p>
+            <p
+              style={
+                Object {
+                  "fontSize": "10px",
+                  "margin": 0,
+                }
+              }
+            >
+              * at least 1 special character
+            </p>
+            <p
+              style={
+                Object {
+                  "fontSize": "10px",
+                  "margin": "0 0 0 1",
+                }
+              }
+            >
+              * and between 8 to 15 characters
+            </p>
+          </div>
+          <input
+            className="form-control"
+            id="create-password-input"
+            placeholder="Enter password"
+            type="password"
+          />
+        </label>
+      </div>
+      <div
+        className="form-group"
+      >
+        <p
+          id="create-gender-input-label"
+        >
+          Gender
+        </p>
+        <div
+          className="form-check"
+        >
+          <label
+            className="form-check-label"
+            htmlFor="flexRadioDefault1"
+          >
+            Female (She/Her/Hers)
+            <input
+              className="form-check-input"
+              id="flexRadioDefault1"
+              name="gender-radio"
+              type="radio"
+            />
+          </label>
+        </div>
+        <div
+          className="form-check"
+        >
+          <label
+            className="form-check-label"
+            htmlFor="flexRadioDefault2"
+          >
+            Male (He/Him/His)
+            <input
+              className="form-check-input"
+              id="flexRadioDefault2"
+              name="gender-radio"
+              type="radio"
+            />
+          </label>
+        </div>
+        <div
+          className="form-check"
+        >
+          <label
+            className="form-check-label"
+            htmlFor="flexRadioDefault2"
+          >
+            Neutral (They/Them/Their)
+            <input
+              className="form-check-input"
+              id="flexRadioDefault3"
+              name="gender-radio"
+              type="radio"
+            />
+          </label>
+        </div>
+      </div>
+      <div
+        className="form-group cancel-create-buttons"
+      >
+        <button
+          className="btn right-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          className="btn right-btn"
+          onClick={[Function]}
+          type="button"
+        >
+          Create
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;

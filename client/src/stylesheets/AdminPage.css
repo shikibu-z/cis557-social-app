@@ -1,0 +1,36 @@
+.adminHeader {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10%;
+}
+#adminNameWrapper {
+    display: block;
+    font-family: Roboto;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: 20%;
+}
+
+.adminHeader img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 1%;
+}
+
+h2 {
+    margin-left: 10%;
+}
+
+.adminGroupIntro {
+    margin-left: 10%;
+    border: 1px solid black;
+    width: 50%;
+    height: 100px;
+    margin-bottom: 2%;
+}
+

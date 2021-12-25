@@ -1,0 +1,45 @@
+.homepage-group {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  background-color: white;
+  width: 90%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0px 5px 5px grey;
+  margin: 0% auto 2%;
+}
+
+.homepage-group img {
+  width:80px;
+  height:80px;
+  border-radius: 50%;
+  overflow:hidden;
+  margin: 2% 4% 1% 4%;
+}
+
+.homepage-group-name {
+  flex:1;
+  margin: 1% 5% 1% 1%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-group-name h2 {
+  margin-top: 1%;
+  font-size: 30px;
+  margin-bottom: 2%;
+}
+
+.homepage-group-info{
+  color:#595959;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 24px;
+}
+
+.homepage-group-members {
+  color: #8C8C8C;
+  text-align: right;
+  margin-right: 2%;
+}

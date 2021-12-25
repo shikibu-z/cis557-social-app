@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar component matches snapshot 1`] = `
+<div>
+  <nav
+    className="menu navbar navbar-expand navbar-dark bg-dark"
+  >
+    <div
+      className="container-fluid"
+    >
+      <a
+        className="navbar-brand"
+        href="#home"
+      >
+        <img
+          alt="connexion"
+          className="d-inline-block align-top"
+          id="logo"
+          src="../Connexion-logos_transparent.png"
+        />
+         
+      </a>
+    </div>
+  </nav>
+</div>
+`;

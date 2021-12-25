@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomepageFriend matches snapshot 1`] = `
+<a
+  href="/chat/undefined"
+  onClick={[Function]}
+  style={
+    Object {
+      "color": "black",
+      "textDecoration": "none",
+    }
+  }
+>
+  <div
+    className="homepage-friend"
+  >
+    <img
+      alt=""
+    />
+    <h2 />
+  </div>
+</a>
+`;

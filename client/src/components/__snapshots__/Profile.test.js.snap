@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Profile component matches snapshot 1`] = `
+<div
+  className="profile"
+>
+  <img
+    alt="profile"
+    className="avatar"
+    id="profile-avatar"
+  />
+  <p
+    id="profile-username"
+  />
+  <div
+    id="profile-info"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <div
+          className="bulletpoint"
+        />
+      </div>
+      <div
+        className="col-md-10"
+      >
+        <p
+          id="profile-gender"
+        >
+          <strong>
+              Gender: 
+          </strong>
+             
+          Male (He/Him/His)
+        </p>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <div
+          className="bulletpoint"
+        />
+      </div>
+      <div
+        className="col-md-10"
+      >
+        <p
+          id="profile-registration-date"
+        >
+          <strong>
+              Registration Date: 
+          </strong>
+             
+          06/05/2021
+        </p>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <div
+          className="bulletpoint"
+        />
+      </div>
+      <div
+        className="col-md-10"
+      >
+        <p
+          id="profile-interest"
+        >
+          <strong>
+              Interests: 
+          </strong>
+           
+        </p>
+      </div>
+    </div>
+    <div
+      className="d-flex flex-row justify-content-between"
+    >
+      <p
+        className="m-md-auto p-1 d-inline-block"
+        style={
+          Object {
+            "text-decoration": "underline",
+          }
+        }
+      >
+        sports
+      </p>
+      <p
+        className="m-md-auto p-1 d-inline-block"
+        style={
+          Object {
+            "text-decoration": "underline",
+          }
+        }
+      >
+        stock market
+      </p>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-md-2"
+      >
+        <div
+          className="bulletpoint"
+        />
+      </div>
+      <div
+        className="col-md-10"
+      >
+        <p>
+          <strong>
+              Groups: 
+          </strong>
+           
+        </p>
+      </div>
+    </div>
+    <div
+      className="profile-array"
+    >
+      <div
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        <img
+          alt=""
+          id="profile-group-image"
+          src="https://cdn.vox-cdn.com/thumbor/ILugzkwUR0oRQFWskaSrcY3LJ4U=/0x0:4173x2582/1200x800/filters:focal(1754x958:2420x1624)/cdn.vox-cdn.com/uploads/chorus_image/image/66757988/1158933034.jpg.0.jpg"
+          title="stock watcher"
+        />
+      </div>
+      <div
+        style={
+          Object {
+            "display": "inline-block",
+          }
+        }
+      >
+        <img
+          alt=""
+          id="profile-group-image"
+          src="https://static.nfl.com/static/content/public/static/img/navigation/shields/header-shield.png"
+          title="NFL"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
